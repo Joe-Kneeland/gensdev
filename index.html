@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Web Labs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="time-machine">
+    <canvas id="timePortal"></canvas>
+  </div>
+
+  <header>
+    <nav>
+      <div class="logo">Future Web Labs</div>
+      <div class="nav-links">
+        <a href="#work">Work</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Building Tomorrow's Web Today</h1>
+      <p class="glitch-text">We craft digital experiences from the future</p>
+    </section>
+
+    <section id="work" class="flip-book">
+      <div class="book-container">
+        <div class="book">
+          <div class="page" data-project="1">
+            <h3>Quantum E-commerce</h3>
+            <p>AI-powered shopping experience with predictive analytics</p>
+          </div>
+          <div class="page" data-project="2">
+            <h3>Neural Network Dashboard</h3>
+            <p>Real-time data visualization platform</p>
+          </div>
+          <div class="page" data-project="3">
+            <h3>Blockchain Marketplace</h3>
+            <p>Decentralized trading platform with smart contracts</p>
+          </div>
+        </div>
+        <div class="book-nav">
+          <button class="prev">←</button>
+          <button class="next">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-grid">
+      <div class="testimonial" style="--delay: 0">
+        <p>"They built our future-proof platform in record time!"</p>
+        <cite>- Sarah Chen, TechCorp</cite>
+      </div>
+      <div class="testimonial" style="--delay: 1">
+        <p>"Innovative solutions that transformed our business."</p>
+        <cite>- James Wilson, DataFlow</cite>
+      </div>
+      <div class="testimonial" style="--delay: 2">
+        <p>"The most forward-thinking agency we've worked with."</p>
+        <cite>- Elena Rodriguez, FutureTech</cite>
+      </div>
+      <div class="testimonial" style="--delay: 3">
+        <p>"They turned our vision into reality."</p>
+        <cite>- Michael Chang, Quantum Inc</cite>
+      </div>
+      <div class="testimonial" style="--delay: 4">
+        <p>"Outstanding technical expertise and creativity."</p>
+        <cite>- Lisa Park, InnovateLabs</cite>
+      </div>
+      <div class="testimonial" style="--delay: 5">
+        <p>"Revolutionary approach to web development."</p>
+        <cite>- David Miller, WebFuture</cite>
+      </div>
+      <div class="testimonial" style="--delay: 6">
+        <p>"Exceeded our expectations in every way."</p>
+        <cite>- Anna Smith, TechGrowth</cite>
+      </div>
+      <div class="testimonial" style="--delay: 7">
+        <p>"Cutting-edge solutions that scale."</p>
+        <cite>- Robert Lee, ScaleTech</cite>
+      </div>
+      <div class="testimonial" style="--delay: 8">
+        <p>"Transformed our digital presence completely."</p>
+        <cite>- Maria Garcia, DigitalNow</cite>
+      </div>
+      <div class="testimonial" style="--delay: 9">
+        <p>"Incredible attention to detail and innovation."</p>
+        <cite>- Tom Johnson, FutureScale</cite>
+      </div>
+      <div class="testimonial" style="--delay: 10">
+        <p>"Best-in-class web development services."</p>
+        <cite>- Sophie Kim, WebInnovate</cite>
+      </div>
+      <div class="testimonial" style="--delay: 11">
+        <p>"They're always one step ahead of trends."</p>
+        <cite>- Alex Brown, TrendTech</cite>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="contact-container">
+        <h2>Contact the Future</h2>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="icon">📍</div>
+              <p>Quantum Tower, Digital District</p>
+            </div>
+            <div class="info-item">
+              <div class="icon">📱</div>
+              <p>+1 (234) 567-8900</p>
+            </div>
+            <div class="info-item">
+              <div class="icon">✉️</div>
+              <p>hello@futureweblabs.com</p>
+            </div>
+          </div>
+          
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" required>
+              <label for="name">Your Name</label>
+              <div class="line"></div>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" required>
+              <label for="email">Your Email</label>
+              <div class="line"></div>
+            </div>
+            
+            <div class="form-group">
+              <select id="service" required>
+                <option value="">Select Service</option>
+                <option value="web">Web Development</option>
+                <option value="app">App Development</option>
+                <option value="ai">AI Integration</option>
+                <option value="blockchain">Blockchain Solutions</option>
+              </select>
+              <div class="line"></div>
+            </div>
+            
+            <div class="form-group">
+              <textarea id="message" required></textarea>
+              <label for="message">Your Message</label>
+              <div class="line"></div>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+              <span>Send Message</span>
+              <div class="btn-particles"></div>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2023 Future Web Labs. Crafting digital experiences from the future.</p>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
